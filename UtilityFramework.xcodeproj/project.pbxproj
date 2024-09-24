@@ -11,6 +11,7 @@
 		752C46372CA3056C0027FE4D /* UtilityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752C462C2CA3056B0027FE4D /* UtilityFramework.framework */; };
 		752C463C2CA3056C0027FE4D /* UtilityFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C463B2CA3056C0027FE4D /* UtilityFrameworkTests.swift */; };
 		752C463D2CA3056C0027FE4D /* UtilityFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 752C462F2CA3056B0027FE4D /* UtilityFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		752C46472CA305B10027FE4D /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C46462CA305B10027FE4D /* StringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		752C46302CA3056B0027FE4D /* UtilityFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = UtilityFramework.docc; sourceTree = "<group>"; };
 		752C46362CA3056C0027FE4D /* UtilityFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UtilityFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752C463B2CA3056C0027FE4D /* UtilityFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFrameworkTests.swift; sourceTree = "<group>"; };
+		752C46462CA305B10027FE4D /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				752C462F2CA3056B0027FE4D /* UtilityFramework.h */,
 				752C46302CA3056B0027FE4D /* UtilityFramework.docc */,
+				752C46462CA305B10027FE4D /* StringUtils.swift */,
 			);
 			path = UtilityFramework;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752C46472CA305B10027FE4D /* StringUtils.swift in Sources */,
 				752C46312CA3056B0027FE4D /* UtilityFramework.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 		752C46442CA3056C0027FE4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XVRBV8R9TX;
@@ -423,6 +428,7 @@
 		752C46452CA3056C0027FE4D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XVRBV8R9TX;
